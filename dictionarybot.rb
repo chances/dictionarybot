@@ -36,7 +36,6 @@ dictionarybot = Cinch::Bot.new do
     c.ssl.use = true
     c.nick = 'dictionarybot'
     c.realname = 'Enigma\'s DictionaryBot'
-    #TODO: Re-add channel config file
     if ARGV.include?('--debug')
       c.channels = config['debug']['channels']
     else
