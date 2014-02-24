@@ -51,7 +51,7 @@ dictionarybot = Cinch::Bot.new do
   end
   
   helpers do
-    @help = 'See https://github.com/chances/dictionarybot'
+    @help = 'See https://github.com/chances/dictionarybot#dictionarybot'
     
     def help(user)
       for line in @help.split('\n')
