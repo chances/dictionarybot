@@ -12,7 +12,7 @@ Provides usage help.
 
 `!dictionary define <word> [results=3]`
 Define a word giving a specified number of results. The number of
-results is limited to at most ten.
+results is limited to at most eight.
 
 `define: <word>`
 Define a word giving the first three results.

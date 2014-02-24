@@ -108,6 +108,7 @@ dictionarybot = Cinch::Bot.new do
     end
     
     def define(word, result_limit=3)
+      result_limit = result_limit < 0 ? 3 : result_limit > 8 ? 8 : result_limit
       results = Wordnik.word.get_definitions(word, :use_canonical => true, :limit => result_limit)
       if not results.is_a?(String) and results.length > 0
         info "Defining #{word} with #{result_limit} definitions"
