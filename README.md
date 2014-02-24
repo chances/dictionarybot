@@ -17,8 +17,8 @@ results is limited to at most eight.
 `define: <word>`
 Define a word giving the first three results.
 
-DefineBot will to the best of its ability try to define a given word
-even if it is mispelled.
+DictionaryBot will, to the best of its ability, try to define a given
+word even if it is mispelled.
 
 ###Word of The Day
 
