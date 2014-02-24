@@ -1,7 +1,7 @@
 DictionaryBot
 =============
 
-An IRC bot that provides definitions for word in the English language.
+An IRC bot that provides definitions for words in the English language.
 
 ##Usage in IRC
 
