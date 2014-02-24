@@ -50,7 +50,7 @@ dictionarybot = Cinch::Bot.new do
   end
   
   helpers do
-    @help = 'See https://github.com/chances/dictionarybot#dictionarybot'
+    @help = 'See https://github.com/chances/dictionarybot#usage'
     
     # Abbreviate a given part of speech
     # 

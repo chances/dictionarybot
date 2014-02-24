@@ -3,7 +3,7 @@ DictionaryBot
 
 An IRC bot that provides definitions for words in the English language.
 
-##Usage in IRC
+##Usage
 
 `!dictionary help`
 Provides usage help.
