@@ -53,12 +53,6 @@ dictionarybot = Cinch::Bot.new do
   helpers do
     @help = 'See https://github.com/chances/dictionarybot#dictionarybot'
     
-    def help(user)
-      for line in @help.split('\n')
-        user.msg line
-      end
-    end
-    
     # Abbreviate a given part of speech
     # 
     def pos(part_of_speech)
